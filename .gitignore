@@ -1,2 +1,5 @@
 simple_test.py
 __pycache__/
+.env
+dist
+dzero_python.egg-info

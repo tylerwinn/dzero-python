@@ -7,9 +7,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="dzero-python",
-    version="1.0.0",
-    author="Python Port of DZero",
-    author_email="",
+    version="1.0.2",
+    author="Tyler Winn",
+    author_email="tyler.winn@protonmail.com",
     description="NCPDP Telecommunications Standard Version D.0 Message parser and serializer",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -28,6 +28,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
     ],
     python_requires=">=3.7",
     install_requires=[],
